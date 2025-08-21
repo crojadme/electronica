@@ -1,10 +1,7 @@
-Curso de electrónica Básica
-Contiene:
+## Curso de electrónica Básica
+#### Contiene:
 - Videos del Curso Electrónica Básica - Youtube
-- Quizes interactivos sobre os temas
+- Quizes interactivos sobre los temas
 
-
-
-
-
+> Se irán añadiendo más cuestionarios.
 
