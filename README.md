@@ -1,6 +1,10 @@
 Curso de electrónica Básica
-- Videos del Curso en Youtube
-- Quizes interactivos
+Contiene:
+- Videos del Curso Electrónica Básica - Youtube
+- Quizes interactivos sobre os temas
+
+
+
 
 
 
