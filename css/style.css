@@ -1,0 +1,322 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.quiz-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#question-card {
+    margin-top: 20px;
+}
+
+#question {
+    font-size: 1.5rem;
+    color: #555;
+}
+
+#options-container {
+    margin-top: 20px;
+    display: grid;
+    gap: 10px;
+}
+
+.option-btn {
+    padding: 15px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.option-btn:hover {
+    background-color: #e9e9e9;
+}
+
+.correct {
+    background-color: #d4edda;
+    border-color: #28a745;
+}
+
+.incorrect {
+    background-color: #f8d7da;
+    border-color: #dc3545;
+}
+
+#feedback-container {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#next-btn {
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#next-btn:hover {
+    background-color: #0056b3;
+}
+
+#quiz-list{
+    font-size: 0.75rem;
+    color: #555;
+    text-decoration: none;
+}
+
+#menu{
+    font-size: 1rem;
+    color: #555;
+    text-decoration: none;
+}
+
+#quiz-footer{
+    font-size: 0.9rem;
+    color: #007bff;
+}
+
+/*Header*/
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+
+#title{
+    font-size: 1.5rem;
+    color: white;
+}
+
+/*estilo tres columnas*/
+/* Estilo para la lista principal (el contenedor) */
+ul {
+    /* Usamos Flexbox para organizar los elementos */
+    display: flex;
+    /* Los elementos se envuelven en una nueva línea si no caben */
+    flex-wrap: wrap;
+    /* Alineamos el contenido con espacio entre los elementos */
+    justify-content: space-between;
+    /* Eliminamos los puntos de la lista */
+    list-style-type: none;
+    /* Quitamos el margen y el relleno predeterminados */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para cada elemento de la lista (cada "li") */
+li {
+    /* Hacemos que cada elemento ocupe aproximadamente un tercio del espacio */
+    flex: 1 1 20%; /* flex-grow, flex-shrink, flex-basis */
+    /* Agregamos un margen para separar las columnas */
+    margin: 10px;
+    /* Centramos el texto dentro de cada elemento */
+    text-align: center;
+    /* Agregamos un borde para un mejor aspecto visual */
+    border: 1px solid #ccc;
+    /* Relleno interno para que el contenido no toque los bordes */
+    padding: 20px;
+    /* Esquinas redondeadas */
+    border-radius: 8px;
+    /* Efecto de sombra para dar profundidad */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    /* Transición suave al pasar el mouse por encima */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Estilo para los enlaces dentro de los elementos de la lista */
+li a {
+    /* Quitamos el subrayado */
+    text-decoration: none;
+    /* Cambiamos el color del texto */
+    color: #333;
+    /* El enlace ocupa todo el espacio del "li" para ser más fácil de hacer clic */
+    display: block;
+    /* Hacemos el texto más grande y en negrita */
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+/* Efecto al pasar el mouse por encima de un elemento de la lista */
+li:hover {
+    /* Elevamos ligeramente el elemento */
+    transform: translateY(-5px);
+    /* Aumentamos la sombra */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* Consulta de medios para pantallas pequeñas */
+@media (max-width: 768px) {
+    /* Cuando la pantalla es menor a 768px, los elementos ocupan todo el ancho */
+    li {
+        flex-basis: 100%;
+        margin: 10px 0;
+    }
+}
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+/*ENLACE COMO BOTON*/
+/* Estilo para un enlace que se verá como un botón */
+.boton {
+    /* Elimina el subrayado y cambia el color del texto */
+    text-decoration: none;
+    color: #fff; /* Color del texto, blanco en este caso */
+    
+    /* Fondo del botón */
+    background-color: #007BFF; /* Un azul primario */
+    
+    /* Relleno interno para darle tamaño al botón */
+    padding: 10px 20px; 
+    
+    /* Bordes redondeados */
+    border-radius: 5px; 
+    
+    /* Muestra el enlace como un bloque en línea (inline-block) */
+    /* Esto permite aplicar padding y margin como a un div */
+    display: inline-block;
+    
+    /* Agrega un margen al botón para separarlo de otros elementos */
+    margin: 5px;
+    
+    /* Cambia el cursor a una mano al pasar por encima */
+    cursor: pointer;
+    
+    /* Transición suave para los efectos de hover */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efecto al pasar el mouse por encima del botón */
+.boton:hover {
+    /* Oscurece el color de fondo para indicar interactividad */
+    background-color: #0056b3; 
+    
+    /* Agrega una pequeña elevación */
+    transform: translateY(-2px);
+}
+
+/* Estilo para el botón cuando está activo (al hacer clic) */
+.boton:active {
+    /* El botón vuelve a su posición original */
+    transform: translateY(0);
+    
+    /* Cambia el color para dar un efecto de "presionado" */
+    background-color: #004085;
+}
+
+.title-quiz{
+    
+    text-align: center;
+    color: #007BFF;
+    font-size: 1.5em;
+}
+
+/*Tooltip*/
+/* Estilo del contenedor principal */
+.tooltip-container {
+    /* La posición relativa es clave para que el popup se posicione correctamente */
+    position: relative;
+    /* Punteado para indicar al usuario que hay algo que ver */
+    border-bottom: 1px dotted #000;
+    /* Cursor de ayuda para mejorar la usabilidad */
+    cursor: help;
+}
+
+/* Estilo del texto del popup (inicialmente oculto) */
+.tooltip-text {
+    font-size: 0.6em;
+    font-weight: 200;
+    /* Esconde el popup por defecto */
+    visibility: hidden;
+    /* Opacidad 0 para una transición suave */
+    opacity: 0;
+    
+    /* Propiedades de estilo para el popup */
+    width: 200px; /* Ancho del popup */
+    background-color: #555; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    text-align: center; /* Alineación del texto */
+    border-radius: 6px; /* Bordes redondeados */
+    padding: 5px 0; /* Relleno */
+    
+    /* Posicionamiento del popup */
+    position: absolute; /* Posición absoluta con respecto al contenedor */
+    z-index: 1; /* Asegura que el popup esté por encima de otros elementos */
+    bottom: 125%; /* Lo coloca por encima del texto */
+    left: 50%; /* Centra horizontalmente */
+    margin-left: -100px; /* Mueve el popup a la izquierda para centrarlo (la mitad de su ancho) */
+    
+    /* Transición para un efecto de aparición suave */
+    transition: opacity 0.3s ease;
+}
+
+/* Triángulo para la punta del popup */
+.tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%; /* Lo coloca en la parte inferior del popup */
+    left: 50%; /* Centra el triángulo */
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent; /* Crea un triángulo */
+}
+
+/* Regla para mostrar el popup al pasar el mouse */
+.tooltip-container:hover .tooltip-text {
+    /* Muestra el popup al pasar el mouse */
+    visibility: visible;
+    /* Cambia la opacidad para que aparezca */
+    opacity: 1;
+}

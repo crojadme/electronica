@@ -1,0 +1,17 @@
+[
+    {
+        "question": "¿Cuál es el planeta más grande del sistema solar?",
+        "options": ["Marte", "Júpiter", "Tierra", "Venus"],
+        "answer": "Júpiter"
+    },
+    {
+        "question": "¿En qué año llegó el hombre a la luna?",
+        "options": ["1965", "1972", "1969", "1980"],
+        "answer": "1969"
+    },
+    {
+        "question": "¿Qué gas es el más abundante en la atmósfera terrestre?",
+        "options": ["Oxígeno", "Nitrógeno", "Dióxido de carbono", "Argón"],
+        "answer": "Nitrógeno"
+    }
+]
