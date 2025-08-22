@@ -17,7 +17,7 @@ const questions = [
     {
         question: "Si un circuito tiene un voltaje de 10V y una corriente de 2A, ¿cuál es la potencia?",
         options: ["5W", "12W", "20W", "8W"],
-        answer: "P = V*I = 10 * 2 = 20W"
+        answer: "20W"
     },
     {
         question: "En un circuito en serie, ¿qué sucede con el voltaje total?",
@@ -32,12 +32,12 @@ const questions = [
     {
         question: "Si dos resistencias de 5Ω y 10Ω están en serie, ¿cuál es la resistencia total?",
         options: ["5Ω", "15Ω", "3.33Ω", "50Ω"],
-        answer: "R = R1 + R2 = 5 + 10 = 15Ω"
+        answer: "15Ω"
     },
     {
         question: "Si dos resistencias de 4Ω y 4Ω están en paralelo, ¿cuál es la resistencia total?",
         options: ["8Ω", "2Ω", "16Ω", "4Ω"],
-        answer: "R = R1*R2/(R1+R2) = 4*4/(4+4) = 16/8 = 2Ω"
+        answer: "2Ω"
     },
     {
         question: "¿Qué sucede si se desconecta un componente en un circuito en serie?",

@@ -17,17 +17,17 @@ const questions = [
     {
         question: "Si el voltaje en un circuito es de 24V y la resistencia es de 8Ω, ¿cuál es la corriente (I)?",
         options: ["3A", "16A", "192A", "0.33A"],
-        answer: "I= V/R = 24 / 8 = 3A"
+        answer: "3A"
     },
     {
         question: "Un resistor de 100Ω tiene una corriente de 0.5A fluyendo a través de él. ¿Cuál es el voltaje (V) en sus terminales?",
         options: ["50V", "200V", "5V", "100V"],
-        answer: "V = I*R = 100 * 0.5 = 50V"
+        answer: "50V"
     },
     {
         question: "Si la corriente a través de un componente es de 2A y el voltaje es de 12V, ¿cuál es su resistencia (R)?",
         options: ["24Ω", "6Ω", "10Ω", "14Ω"],
-        answer: "R = V/I = 12 / 6 = 6Ω"
+        answer: "6Ω"
     },
     {
         question: "Si el voltaje en un circuito se mantiene constante y la resistencia aumenta, ¿qué sucede con la corriente?",
@@ -37,7 +37,7 @@ const questions = [
     {
         question: "Un dispositivo consume una corriente de 0.1A cuando se conecta a una fuente de 9V. ¿Cuál es la resistencia (R) del dispositivo?",
         options: ["0.01Ω", "0.9Ω", "90Ω", "9.1Ω"],
-        answer: "R = V/I = 9 / 0.1 = 90Ω"
+        answer: "90Ω"
     },
     {
         question: "Si la corriente que pasa por un resistor de 5Ω se duplica, ¿cómo cambia el voltaje a través de él?",
