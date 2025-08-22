@@ -37,16 +37,16 @@ const questions = [
     {
         question: "En un circuito con 12V y 3Ω de resistencia, ¿cuál es la corriente (I)?",
         options: ["4A", "36A", "0.25A", "15A"],
-        answer: "4A"
+        answer: "I = V/R = 12 / 3 = 4A"
     },
     {
         question: "Si la corriente es 2A y la resistencia es 5Ω, ¿cuál es el voltaje (V)?",
         options: ["10V", "2.5V", "0.4V", "7V"],
-        answer: "10V"
+        answer: "V = i*R = 2 * 5 = 10V"
     },
     {
         question: "En un circuito con 24V y una corriente de 4A, ¿cuál es la resistencia (R)?",
         options: ["96Ω", "6Ω", "20Ω", "28Ω"],
-        answer: "6Ω"
+        answer: "R = V/I = 24 / 4 = 6Ω"
     }
 ];
